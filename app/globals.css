@@ -1,13 +1,8 @@
 @import "tailwindcss";
 
-@theme {
-  --font-sans: var(--font-roboto-sans);
-  --font-mono: var(--font-roboto-mono);
-}
-
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
 }
 
 body {
