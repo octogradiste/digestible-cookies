@@ -1,6 +1,6 @@
 "use client";
 
-import { CookieSubtitle, CookieTitle, CookieLevels } from "@/src/constants/cookies";
+import { COOKIE_SUBTITLE, COOKIE_TITLE, COOKIE_LEVELS } from "@/src/constants/cookies";
 import AcceptRejectActionButton from "../buttons/accept-reject-action-button";
 import Dialog, { DialogTitle, DialogContent, DialogActions } from "../dialog";
 import { ChangeEvent, useState } from "react";
@@ -14,13 +14,13 @@ export default function SliderCookieBanner() {
 
   return (
     <Dialog>
-      <DialogTitle>{CookieTitle}</DialogTitle>
+      <DialogTitle>{COOKIE_TITLE}</DialogTitle>
       <DialogContent>
-        <p>{CookieSubtitle}</p>
+        <p>{COOKIE_SUBTITLE}</p>
         <div className="mt-4">
           <div className="flex flex-row">
             {
-              CookieLevels.map((_, index) => {
+              COOKIE_LEVELS.map((_, index) => {
                 const className = index <= sliderValue ? "font-bold" : "";
                 return (
                   <div key={index} className="basis-2/6 first:basis-1/6 last:basis-1/6 flex justify-center first:justify-start last:justify-end">
@@ -32,7 +32,7 @@ export default function SliderCookieBanner() {
           </div>
           <input type="range" min={0} max={3} value={sliderValue} onChange={onSliderChange} className="w-full"/>
           <p className="mt-2">
-            <span className="font-bold">{CookieLevels[sliderValue].title}</span>: {CookieLevels[sliderValue].description}
+            <span className="font-bold">{COOKIE_LEVELS[sliderValue].title}</span>: {COOKIE_LEVELS[sliderValue].description}
           </p>
         </div>
         </DialogContent>

@@ -4,12 +4,12 @@ interface CookieLevel {
   description: string;
 }
 
-export const CookieTitle = "We use cookies";
+export const COOKIE_TITLE = "We use cookies";
 
-export const CookieSubtitle =
+export const COOKIE_SUBTITLE =
   "We use cookies to improve your experience. Some are essential ('necessary'), while others help us with analytics and ads.";
 
-export const CookieLevels: CookieLevel[] = [
+export const COOKIE_LEVELS: CookieLevel[] = [
   {
     title: "Necessary",
     required: true,
