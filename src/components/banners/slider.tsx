@@ -18,13 +18,13 @@ export default function SliderCookieBanner() {
       <DialogContent>
         <p>{CookieSubtitle}</p>
         <div className="mt-4">
-          <div className="flex justify-between max-[450px]:hidden">
+          <div className="flex flex-row">
             {
-              CookieLevels.map((level, index) => {
+              CookieLevels.map((_, index) => {
                 const className = index <= sliderValue ? "font-bold" : "";
                 return (
-                  <div key={index} className="w-full">
-                    <span className={className}>{level.title}</span>
+                  <div key={index} className="basis-2/6 first:basis-1/6 last:basis-1/6 flex justify-center first:justify-start last:justify-end">
+                    <span className={className}>{(index + 1) * 25}%</span>
                   </div>
                 );
               })
