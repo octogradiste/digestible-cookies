@@ -8,7 +8,7 @@ export default function ClassicCookieBanner() {
       <DialogTitle>{CookieTitle}</DialogTitle>
       <DialogContent>
         <p>{CookieSubtitle}</p>
-        <ol className="list-decimal list-outside ml-4">
+        <ul className="list-disc list-outside ml-4">
           {
             CookieLevels.filter((level) => !level.required).map((level, index) => (
               <li key={index} className="mt-2">
@@ -16,7 +16,7 @@ export default function ClassicCookieBanner() {
               </li>
             ))
           }
-        </ol>
+        </ul>
         </DialogContent>
         <DialogActions>
           <AcceptRejectActionButton 

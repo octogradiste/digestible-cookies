@@ -52,7 +52,7 @@ export default function Dialog({
   return (
     <div className={`fixed inset-0 z-50 flex items-center justify-center transition-opacity ease-in-out delay-100 duration-400 ${opacity}`}>
       <div className="fixed inset-0 bg-gray-500/75"></div>
-      <div className="bg-white rounded-lg shadow-xl overflow-hidden transform transition-all max-w-md w-full m-8">
+      <div className="bg-white rounded-lg shadow-xl overflow-hidden transform transition-all max-w-md w-full m-6">
         <div className="px-6 py-5">
           {children}
         </div>
