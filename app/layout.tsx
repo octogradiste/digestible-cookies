@@ -7,8 +7,9 @@ import SettingCookieBanner from "@/src/components/banners/setting";
 import SliderCookieBanner from "@/src/components/banners/slider";
 import { useAppState } from "@/src/hooks/use-app-state";
 import { AppState } from "@/src/models/app/app-state";
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 import { useCookieState } from "@/src/hooks/use-cookie-state";
+import { useRouter } from "next/navigation";
 
 const playfairDisplay = Playfair_Display({
   variable: "--font-serif",
@@ -28,6 +29,17 @@ export default function RootLayout({
 }>) {
   const { state, setSurveyState } = useAppState();
   const { cookieState, addInteraction } = useCookieState();
+  const router = useRouter();
+
+  useEffect(() => {
+    if (state == AppState.Survey) {
+      router.replace("/survey");
+    } else if (state == AppState.Done) {
+      router.replace("/done");
+    } else {
+      router.replace("/");
+    }
+  }, [state, router]);
 
   const cookieBanner = useMemo(() => {
     if (cookieState && state == AppState.Cookie) {
