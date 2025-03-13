@@ -4,12 +4,19 @@ import { COOKIE_SUBTITLE, COOKIE_TITLE, COOKIE_LEVELS } from "@/src/constants/co
 import AcceptRejectActionButton from "../buttons/accept-reject-action-button";
 import Dialog, { DialogTitle, DialogContent, DialogActions } from "../dialog";
 import { ChangeEvent, useState } from "react";
+import CookieBannerProps from "@/src/models/banner/cookie-banner-props";
+import { onAccept, onReject, onSave, getOnSliderChange } from "@/src/lib/banner";
 
-export default function SliderCookieBanner() {
+
+export default function SliderCookieBanner({onDone, onInteract}: CookieBannerProps) {
   const [sliderValue, setSliderValue] = useState(0);
 
-  const onSliderChange = (event: ChangeEvent<HTMLInputElement>) => {
-    setSliderValue(Number.parseInt(event.target.value));
+  const onSliderChange = getOnSliderChange(onInteract);
+
+  const onChange = (event: ChangeEvent<HTMLInputElement>) => {
+    const value = Number.parseInt(event.target.value)
+    setSliderValue(value);
+    onSliderChange(value);
   }
 
   return (
@@ -30,7 +37,7 @@ export default function SliderCookieBanner() {
               })
             }
           </div>
-          <input type="range" min={0} max={3} value={sliderValue} onChange={onSliderChange} className="w-full"/>
+          <input type="range" min={0} max={3} value={sliderValue} onChange={onChange} className="w-full"/>
           <p className="mt-2">
             <span className="font-bold">{COOKIE_LEVELS[sliderValue].title}</span>: {COOKIE_LEVELS[sliderValue].description}
           </p>
@@ -40,6 +47,9 @@ export default function SliderCookieBanner() {
           <AcceptRejectActionButton 
             actionTitle="Save" 
             longActionTitle="Save My Preferences" 
+            onAccept={onAccept(onDone, onInteract)}
+            onReject={onReject(onDone, onInteract)}
+            onAction={onSave(onDone, onInteract)}
           />
         </DialogActions>
     </Dialog>

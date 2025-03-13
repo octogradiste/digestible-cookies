@@ -1,8 +1,4 @@
-interface CookieLevel {
-  title: string;
-  required: boolean;
-  description: string;
-}
+import CookieLevel from "../models/cookie/cookie-level";
 
 export const COOKIE_TITLE = "We use cookies";
 

@@ -1,8 +1,10 @@
 import { COOKIE_SUBTITLE, COOKIE_TITLE, COOKIE_LEVELS } from "@/src/constants/cookies";
 import AcceptRejectActionButton from "../buttons/accept-reject-action-button";
 import Dialog, { DialogTitle, DialogContent, DialogActions } from "../dialog";
+import CookieBannerProps from "@/src/models/banner/cookie-banner-props";
+import { onAccept, onCustomize, onReject } from "@/src/lib/banner";
 
-export default function ClassicCookieBanner() {
+export default function ClassicCookieBanner({onDone, onInteract}: CookieBannerProps) {
   return (
     <Dialog>
       <DialogTitle>{COOKIE_TITLE}</DialogTitle>
@@ -22,6 +24,9 @@ export default function ClassicCookieBanner() {
           <AcceptRejectActionButton 
             actionTitle="Customize" 
             longActionTitle="Customize Cookie Settings" 
+            onAccept={onAccept(onDone, onInteract)}
+            onReject={onReject(onDone, onInteract)}
+            onAction={onCustomize(onDone, onInteract)}
           />
         </DialogActions>
     </Dialog>
