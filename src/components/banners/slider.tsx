@@ -8,7 +8,7 @@ import CookieBannerProps from "@/src/models/banner/cookie-banner-props";
 import { onAccept, onReject, onSave, getOnSliderChange } from "@/src/lib/banner";
 
 
-export default function SliderCookieBanner({onDone, onInteract}: CookieBannerProps) {
+export default function SliderCookieBanner({ onDone, onInteract, animate }: CookieBannerProps) {
   const [sliderValue, setSliderValue] = useState(0);
 
   const onSliderChange = getOnSliderChange(onInteract);
@@ -20,7 +20,7 @@ export default function SliderCookieBanner({onDone, onInteract}: CookieBannerPro
   }
 
   return (
-    <Dialog>
+    <Dialog animate={animate}>
       <DialogTitle>{COOKIE_TITLE}</DialogTitle>
       <DialogContent>
         <p>{COOKIE_SUBTITLE}</p>
@@ -37,21 +37,28 @@ export default function SliderCookieBanner({onDone, onInteract}: CookieBannerPro
               })
             }
           </div>
-          <input type="range" min={0} max={3} value={sliderValue} onChange={onChange} className="w-full"/>
+          <input
+            type="range"
+            min={0}
+            max={3}
+            value={sliderValue}
+            onChange={onChange}
+            className="w-full accent-black"
+          />
           <p className="mt-2">
             <span className="font-bold">{COOKIE_LEVELS[sliderValue].title}</span>: {COOKIE_LEVELS[sliderValue].description}
           </p>
         </div>
-        </DialogContent>
-        <DialogActions>
-          <AcceptRejectActionButton 
-            actionTitle="Save" 
-            longActionTitle="Save My Preferences" 
-            onAccept={onAccept(onDone, onInteract)}
-            onReject={onReject(onDone, onInteract)}
-            onAction={onSave(onDone, onInteract)}
-          />
-        </DialogActions>
+      </DialogContent>
+      <DialogActions>
+        <AcceptRejectActionButton
+          actionTitle="Save"
+          longActionTitle="Save My Preferences"
+          onAccept={onAccept(onDone, onInteract)}
+          onReject={onReject(onDone, onInteract)}
+          onAction={onSave(onDone, onInteract)}
+        />
+      </DialogActions>
     </Dialog>
   );
 }

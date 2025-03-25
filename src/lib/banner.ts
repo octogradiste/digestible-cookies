@@ -41,14 +41,15 @@ export function onSave(
 }
 
 export function onCustomize(
-  onDone: () => void,
   onInteract: (interaction: CookieInteraction) => void,
 ) {
-  return onClick(
-    onDone,
-    onInteract,
-    CookieInteractionComponent.BUTTON_CUSTOMIZE,
-  );
+  return () => {
+    onInteract({
+      timestamp: new Date(),
+      type: CookieInteractionType.CLICK,
+      component: CookieInteractionComponent.BUTTON_CUSTOMIZE,
+    });
+  };
 }
 
 export function getOnSliderChange(

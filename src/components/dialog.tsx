@@ -40,10 +40,12 @@ export function DialogActions({
 
 export default function Dialog({
   children,
+  animate = true,
 }: Readonly<{
   children: React.ReactNode;
+  animate?: boolean;
 }>) {
-  const [opacity, setOpacity] = useState("opacity-0");
+  const [opacity, setOpacity] = useState(animate ? "opacity-0" : "opacity-100");
 
   useEffect(() => {
     setOpacity("opacity-100");
