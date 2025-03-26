@@ -2,7 +2,7 @@ import { doc, setDoc } from "firebase/firestore";
 import CookieState from "../models/cookie/cookie-state";
 import { auth, firestore } from "./firebase";
 import { COLLECTION_RESULTS } from "../constants/collections";
-import SurveyResult from "../models/survey/survey-result";
+import SurveyState from "../models/survey/survey-state";
 
 /**
  * Saves the cookie interactions and survey resutls to Firestore.
@@ -10,7 +10,7 @@ import SurveyResult from "../models/survey/survey-result";
  */
 export function save(
   cookieState: CookieState | undefined,
-  surveyState: SurveyResult[],
+  surveyState: SurveyState,
 ) {
   const uid = auth.currentUser?.uid;
   if (uid) {

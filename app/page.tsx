@@ -30,7 +30,7 @@ export default function Home() {
         return <Cookie />;
       case AppState.Survey:
         return <Survey
-          results={surveyState}
+          surveyState={surveyState}
           onAnswer={onSurveyAnswer}
           onSubmit={onSurveySubmit}
         />;
