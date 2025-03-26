@@ -9,7 +9,7 @@ export const useCookieState = () => {
   const [user] = useAuthState(auth);
   const [cookieState, setCookieState] = useState<CookieState | null>();
 
-  const addInteraction = (interaction: CookieInteraction) => {
+  const onCookieInteraction = (interaction: CookieInteraction) => {
     if (cookieState) {
       setCookieState({
         ...cookieState,
@@ -23,10 +23,13 @@ export const useCookieState = () => {
       setCookieState({
         banner: getCookieBannerNumberFromUID(user.uid),
         start: new Date(),
+        widht: window.innerWidth,
+        height: window.innerHeight,
+        agent: navigator.userAgent,
         interactions: [],
       });
     }
   }, [user]);
 
-  return { cookieState, addInteraction };
+  return { cookieState, onCookieInteraction };
 };
