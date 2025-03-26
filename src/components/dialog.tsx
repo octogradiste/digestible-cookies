@@ -2,6 +2,9 @@
 
 import { useEffect, useState } from "react";
 
+const hiddenClass = "opacity-0 pointer-events-none";
+const visibleClass = "opacity-100";
+
 export function DialogTitle({
   children,
 }: Readonly<{
@@ -41,24 +44,30 @@ export function DialogActions({
 export default function Dialog({
   children,
   animate = true,
+  hidden = false,
 }: Readonly<{
   children: React.ReactNode;
   animate?: boolean;
+  hidden?: boolean;
 }>) {
-  const [opacity, setOpacity] = useState(animate ? "opacity-0" : "opacity-100");
+  const [opacity, setOpacity] = useState(animate ? hiddenClass : visibleClass);
 
   useEffect(() => {
-    setOpacity("opacity-100");
-  }, []);
+    setOpacity(hidden ? hiddenClass : visibleClass);
+  }, [hidden]);
 
   return (
-    <div className={`fixed inset-0 z-50 flex items-center justify-center transition-opacity ease-in-out delay-100 duration-400 ${opacity}`}>
-      <div className="fixed inset-0 bg-gray-500/75"></div>
-      <div className="bg-white rounded-lg shadow-xl overflow-hidden transform transition-all max-w-md w-full m-6">
-        <div className="px-6 py-5">
-          {children}
-        </div>
-      </div>
+    <div className={`fixed inset-0 z-50 flex items-center justify-center transition-opacity delay-100 ease-in-out duration-400 ${opacity}`}>
+      {hidden ? null :
+        <>
+          <div className="fixed inset-0 bg-gray-500/75"></div>
+          <div className="bg-white rounded-lg shadow-xl overflow-hidden transform transition-all max-w-md w-full m-6">
+            <div className="px-6 py-5">
+              {children}
+            </div>
+          </div>
+        </>
+      }
     </div>
   );
 }

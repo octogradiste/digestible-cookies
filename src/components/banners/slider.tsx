@@ -8,7 +8,7 @@ import CookieBannerProps from "@/src/models/banner/cookie-banner-props";
 import { onAccept, onReject, onSave, getOnSliderChange } from "@/src/lib/banner";
 
 
-export default function SliderCookieBanner({ onDone, onInteract, animate }: CookieBannerProps) {
+export default function SliderCookieBanner({ onDone, onInteract, hidden, animate }: CookieBannerProps) {
   const [sliderValue, setSliderValue] = useState(0);
 
   const onSliderChange = getOnSliderChange(onInteract);
@@ -20,7 +20,7 @@ export default function SliderCookieBanner({ onDone, onInteract, animate }: Cook
   }
 
   return (
-    <Dialog animate={animate}>
+    <Dialog animate={animate} hidden={hidden}>
       <DialogTitle>{COOKIE_TITLE}</DialogTitle>
       <DialogContent>
         <p>{COOKIE_SUBTITLE}</p>

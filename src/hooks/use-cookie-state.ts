@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { uidToCookieBannerNumber as getCookieBannerNumberFromUID } from "../utils";
+import { uidToCookieBannerNumber as getCookieBannerNumberFromUID } from "../lib/utils";
 import { auth } from "../lib/firebase";
 import CookieState from "../models/cookie/cookie-state";
 import CookieInteraction from "../models/cookie/cookie-interaction";
 
 export const useCookieState = () => {
   const [user] = useAuthState(auth);
-  const [cookieState, setCookieState] = useState<CookieState | null>();
+  const [cookieState, setCookieState] = useState<CookieState | undefined>();
 
   const onCookieInteraction = (interaction: CookieInteraction) => {
     if (cookieState) {

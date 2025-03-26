@@ -26,13 +26,13 @@ export const useAppState = () => {
 
   useEffect(() => {
     if (user) {
-      if (state == AppState.Initial) {
+      if (state === AppState.Initial && hasResults === false) {
         setState(AppState.Cookie);
       }
-    } else {
+    } else if (user === null) {
       signInAnonymously(auth);
     }
-  }, [user, state]);
+  }, [user, state, hasResults]);
 
   return { state, setSurveyState, setDoneState };
 };

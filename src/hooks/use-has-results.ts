@@ -4,9 +4,14 @@ import { useEffect, useState } from "react";
 import { doc, onSnapshot } from "firebase/firestore";
 import { COLLECTION_RESULTS } from "../constants/collections";
 
+/**
+ * Returns whether the user has results in Firestore.
+ * If the user is not authenticated, the result will be undefined.
+ * If the user has results, the result will be true.
+ */
 export const useHasResults = () => {
   const [user] = useAuthState(auth);
-  const [hasResults, setHasResults] = useState<boolean>(false);
+  const [hasResults, setHasResults] = useState<boolean | undefined>();
 
   useEffect(() => {
     if (user) {

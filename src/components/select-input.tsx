@@ -5,7 +5,6 @@ interface SelectInputProps {
 }
 
 export function SelectInput({ options, selected, onSelect }: SelectInputProps) {
-
   return (
     <div className="grid grid-cols-5 gap-4 items-end">
       {options.map((option) => (

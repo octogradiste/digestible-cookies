@@ -8,7 +8,7 @@ import { onAccept, onCustomize, onReject } from "@/src/lib/banner";
 import { useState } from "react";
 import SettingCookieBanner from "./setting";
 
-export default function ClassicCookieBanner({ onDone, onInteract, animate }: CookieBannerProps) {
+export default function ClassicCookieBanner({ onDone, onInteract, hidden, animate }: CookieBannerProps) {
   const [customize, setCustomize] = useState(false);
   const onCustomizeCallback = onCustomize(onInteract);
 
@@ -22,10 +22,11 @@ export default function ClassicCookieBanner({ onDone, onInteract, animate }: Coo
       onDone={onDone}
       onInteract={onInteract}
       animate={false}
+      hidden={hidden}
     />
   } else {
     return (
-      <Dialog animate={animate}>
+      <Dialog animate={animate} hidden={hidden}>
         <DialogTitle>{COOKIE_TITLE}</DialogTitle>
         <DialogContent>
           <p>{COOKIE_SUBTITLE}</p>

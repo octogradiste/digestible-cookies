@@ -3,6 +3,7 @@
 import FilledButton from "@/src/components/buttons/filled-button";
 import { SelectInput } from "@/src/components/select-input";
 import { OPTIONS } from "@/src/constants/survey";
+import SurveyResult from "@/src/models/survey/survey-result";
 
 interface SurveyProps {
   results: SurveyResult[];
@@ -13,16 +14,24 @@ interface SurveyProps {
 export default function Survey({ results, onAnswer, onSubmit }: SurveyProps) {
   return (
     <div className="flex flex-row justify-center">
-      <div className="max-w-lg my-8">
+      <div className="max-w-lg my-8 mx-6">
         <p className="font-bold text-2xl mb-2">Survey</p>
-        <p className="mb-6 text-justify">
-          As you may have guessed, this study is more specifically about cookies and cookie banners. You were randomly shown one of the banner designs, and your participation helps us determine which designs are more digestible.
+        <p className="mb-2 text-justify">
+          Hey there! Thanks for checking out our cookie banner. You might have guessed it - we’re running a study on how people interact with different banner designs.
         </p>
-        {
-          results.map((result, index) => (
+        <p className="mb-6 text-justify">
+          You were randomly shown one of three versions, and your feedback will help us figure out which design is the most user-friendly.
+        </p>
+        <div className="mb-6">
+          <div className="grid grid-cols-5 gap-4 items-center text-sm mb-6">
+            {OPTIONS.map((option, index) => (
+              <span key={index} className="w-full text-center">{option.label}</span>
+            ))}
+          </div>
+          {results.map((result, index) => (
             <div key={index} className="mb-6">
               <p className="mb-2 text-sm text-justify">
-                {index + 1}. {result.question}
+                {result.question}
               </p>
               <SelectInput
                 options={OPTIONS}
@@ -30,11 +39,30 @@ export default function Survey({ results, onAnswer, onSubmit }: SurveyProps) {
                 onSelect={(value) => onAnswer(index, value)}
               />
             </div>
-          ))
-        }
-        <p className="mb-6 text-justify">
-          As long as you don not submit, you can opt out of the study at any time. As soon as you submit, your answers will be recorded and used for the study.
+          ))}
+        </div>
+        <p className="mb-2 font-bold">Almost done!</p>
+        <p className="mb-2 text-justify">
+          We really appreciate your time. Before you submit, here’s what we’ll collect along with your answers:
         </p>
+        <div className="flex flex-col mb-2">
+          <div className="flex items-center gap-2">
+            <span>✅</span> <span>Your browser type</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span>✅</span> <span>Your screen size</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span>✅</span> <span>How you interacted with the banner</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span>✅</span> <span>Your answers to the survey</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span>✅</span> <span>Time taken to complete the survey</span>
+          </div>
+        </div>
+        <p className="mb-6 text-justify">That’s it! Just hit the button below to submit your responses. Thanks again for helping us make cookie banners less annoying! 🍪✨</p>
         <div className="flex justify-center">
           <FilledButton title="Submit" onClick={onSubmit} />
         </div>
@@ -42,3 +70,4 @@ export default function Survey({ results, onAnswer, onSubmit }: SurveyProps) {
     </div>
   );
 }
+

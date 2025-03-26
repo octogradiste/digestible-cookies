@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { QUESTIONS } from "../constants/survey";
+import SurveyResult from "../models/survey/survey-result";
 
 export default function useSurveyState() {
   const [surveyState, setSurveyState] = useState<SurveyResult[]>(

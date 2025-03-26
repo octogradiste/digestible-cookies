@@ -9,6 +9,7 @@ import Survey from "@/src/components/screens/survey";
 import { useAppState } from "@/src/hooks/use-app-state";
 import { useCookieState } from "@/src/hooks/use-cookie-state";
 import useSurveyState from "@/src/hooks/use-survey-state";
+import { save } from "@/src/lib/firestore";
 import { AppState } from "@/src/models/app/app-state";
 import { useCallback, useMemo } from "react";
 
@@ -19,12 +20,7 @@ export default function Home() {
 
   const onSurveySubmit = useCallback(() => {
     setDoneState();
-
-    const end = new Date();
-
-    console.log(cookieState);
-    console.log(surveyState);
-    console.log(end);
+    save(cookieState, surveyState);
   }, [cookieState, surveyState, setDoneState]);
 
   // The screen that is currently shown to the user.
@@ -47,22 +43,25 @@ export default function Home() {
 
   // The cookie banner that is currently shown to the user.
   const banner = useMemo(() => {
-    if (cookieState && state == AppState.Cookie) {
+    if (cookieState) {
       switch (cookieState.banner) {
         case 0:
           return <ClassicCookieBanner
             onDone={setSurveyState}
             onInteract={onCookieInteraction}
+            hidden={state !== AppState.Cookie}
           />;
         case 1:
           return <SettingCookieBanner
             onDone={setSurveyState}
             onInteract={onCookieInteraction}
+            hidden={state !== AppState.Cookie}
           />;
         case 2:
           return <SliderCookieBanner
             onDone={setSurveyState}
             onInteract={onCookieInteraction}
+            hidden={state !== AppState.Cookie}
           />;
         default:
           return null;
@@ -70,7 +69,7 @@ export default function Home() {
     } else {
       return null;
     }
-  }, [cookieState, state, setSurveyState, onCookieInteraction]);
+  }, [cookieState, state, onCookieInteraction, setSurveyState]);
 
   return (
     <div>

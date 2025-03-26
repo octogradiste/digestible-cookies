@@ -1,5 +1,6 @@
 import crypto from "crypto";
 
+/** The number of different cookie banners */
 const COOKIE_BANNERS = 3;
 
 /**

@@ -7,7 +7,7 @@ import CookieBannerProps from "@/src/models/banner/cookie-banner-props";
 import { ChangeEvent, useState } from "react";
 import { getOnCheckboxChange, onAccept, onReject, onSave } from "@/src/lib/banner";
 
-export default function SettingCookieBanner({ onDone, onInteract, animate }: CookieBannerProps) {
+export default function SettingCookieBanner({ onDone, onInteract, hidden, animate }: CookieBannerProps) {
   const [checkboxValues, setCheckboxValues] = useState<{ [index: number]: boolean; }>({});
 
   const onCheckBoxChange = getOnCheckboxChange(onInteract);
@@ -19,7 +19,7 @@ export default function SettingCookieBanner({ onDone, onInteract, animate }: Coo
   }
 
   return (
-    <Dialog animate={animate}>
+    <Dialog animate={animate} hidden={hidden}>
       <DialogTitle>{COOKIE_TITLE}</DialogTitle>
       <DialogContent>
         <p>{COOKIE_SUBTITLE}</p>
