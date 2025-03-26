@@ -10,10 +10,6 @@ export const useAppState = () => {
   const [user] = useAuthState(auth);
   const hasResults = useHasResults();
 
-  const setTransitionState = () => {
-    setState(AppState.Transition);
-  };
-
   const setSurveyState = () => {
     setState(AppState.Survey);
   };
@@ -38,5 +34,5 @@ export const useAppState = () => {
     }
   }, [user, state, hasResults]);
 
-  return { state, setTransitionState, setSurveyState, setDoneState };
+  return { state, setSurveyState, setDoneState };
 };

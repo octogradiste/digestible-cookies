@@ -5,9 +5,6 @@ export enum AppState {
   /** Shows the cookie banner to the user and tracks his interactions. */
   Cookie,
 
-  /** Transition between the Cookie and Survey state. */
-  Transition,
-
   /** Asks the user to fill out a survey. */
   Survey,
 

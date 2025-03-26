@@ -1,5 +1,3 @@
-export const DELAY = 1000;
-
 export const QUESTIONS = [
   "I am familiar with cookie banner shown on the previous page.",
   "I generally accept all cookies on websites.",

@@ -6,16 +6,15 @@ import SliderCookieBanner from "@/src/components/banners/slider";
 import Cookie from "@/src/components/screens/cookie";
 import Done from "@/src/components/screens/done";
 import Survey from "@/src/components/screens/survey";
-import { DELAY } from "@/src/constants/survey";
 import { useAppState } from "@/src/hooks/use-app-state";
 import { useCookieState } from "@/src/hooks/use-cookie-state";
 import useSurveyState from "@/src/hooks/use-survey-state";
 import { save } from "@/src/lib/firestore";
 import { AppState } from "@/src/models/app/app-state";
-import { useCallback, useEffect, useMemo } from "react";
+import { useCallback, useMemo } from "react";
 
 export default function Home() {
-  const { state, setTransitionState, setSurveyState, setDoneState } = useAppState();
+  const { state, setSurveyState, setDoneState } = useAppState();
   const { cookieState, onCookieInteraction } = useCookieState();
   const { surveyState, onSurveyAnswer } = useSurveyState();
 
@@ -24,18 +23,10 @@ export default function Home() {
     save(cookieState, surveyState);
   }, [cookieState, surveyState, setDoneState]);
 
-  useEffect(() => {
-    if (state === AppState.Transition) {
-      setTimeout(setSurveyState, DELAY);
-    }
-  }, [state, setSurveyState]);
-
   // The screen that is currently shown to the user.
   const screen = useMemo(() => {
     switch (state) {
       case AppState.Cookie:
-        return <Cookie />;
-      case AppState.Transition:
         return <Cookie />;
       case AppState.Survey:
         return <Survey
@@ -56,19 +47,19 @@ export default function Home() {
       switch (cookieState.banner) {
         case 0:
           return <ClassicCookieBanner
-            onDone={setTransitionState}
+            onDone={setSurveyState}
             onInteract={onCookieInteraction}
             hidden={state !== AppState.Cookie}
           />;
         case 1:
           return <SettingCookieBanner
-            onDone={setTransitionState}
+            onDone={setSurveyState}
             onInteract={onCookieInteraction}
             hidden={state !== AppState.Cookie}
           />;
         case 2:
           return <SliderCookieBanner
-            onDone={setTransitionState}
+            onDone={setSurveyState}
             onInteract={onCookieInteraction}
             hidden={state !== AppState.Cookie}
           />;
