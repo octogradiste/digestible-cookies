@@ -19,8 +19,11 @@ export default function Survey({ results, onAnswer, onSubmit }: SurveyProps) {
         <p className="mb-2 text-justify">
           Hey there! Thanks for checking out our cookie banner. You might have guessed it - we’re running a study on how people interact with different banner designs.
         </p>
-        <p className="mb-6 text-justify">
+        <p className="mb-2 text-justify">
           You were randomly shown one of three versions, and your feedback will help us figure out which design is the most user-friendly.
+        </p>
+        <p className="mb-6 text-justify">
+          The first few questions are about your general cookie <span className="font-bold">preferences</span>, then we’ll ask you about the <span className="font-bold">design</span> and finally about the <span className="font-bold">content</span> of the banner you saw.
         </p>
         <div className="mb-6">
           <div className="grid grid-cols-5 gap-4 items-center text-sm mb-6">
