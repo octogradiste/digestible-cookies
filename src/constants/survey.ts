@@ -1,4 +1,4 @@
-export const QUESTIONS_1 = [
+export const QUESTIONS = [
   "I am familiar with cookie banner shown on the previous page.",
   "I generally accept all cookies on websites.",
   "I generally reject all cookies on websites.",
@@ -12,14 +12,7 @@ export const QUESTIONS_1 = [
   "I needed to learn a lot of things before I could get going with this cookie banner.",
 ];
 
-export const QUESTIONS_2 = [
-  "If you agree to performance cookies you give permission that your processor usage is collected.",
-  "If you agree to advertisement cookies your interaction with the website might influence future ads that you see.",
-  "If you agree to advertisement cookies the website provider stores your browser search history.",
-  "If you agree to functional cookies your keyboard layout is collected.",
-];
-
-const VALUES_1 = [
+const VALUES = [
   "Strongly Disagree",
   "Disagree",
   "Neutral",
@@ -27,14 +20,7 @@ const VALUES_1 = [
   "Strongly Agree",
 ];
 
-const VALUES_2 = ["Very Unsure", "Unsure", "Neutral", "Sure", "Very Sure"];
-
-export const OPTIONS_1 = VALUES_1.map((value, index) => ({
-  value: index + 1,
-  label: value,
-}));
-
-export const OPTIONS_2 = VALUES_2.map((value, index) => ({
+export const OPTIONS = VALUES.map((value, index) => ({
   value: index + 1,
   label: value,
 }));

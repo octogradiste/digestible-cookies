@@ -2,16 +2,16 @@
 
 import FilledButton from "@/src/components/buttons/filled-button";
 import { SelectInput } from "@/src/components/select-input";
-import { OPTIONS_1, OPTIONS_2 } from "@/src/constants/survey";
-import SurveyState from "@/src/models/survey/survey-state";
+import { OPTIONS } from "@/src/constants/survey";
+import SurveyResult from "@/src/models/survey/survey-result";
 
 interface SurveyProps {
-  surveyState: SurveyState;
-  onAnswer: (part: number, index: number, value: number) => void;
+  results: SurveyResult[];
+  onAnswer: (index: number, value: number) => void;
   onSubmit: () => void;
 }
 
-export default function Survey({ surveyState, onAnswer, onSubmit }: SurveyProps) {
+export default function Survey({ results, onAnswer, onSubmit }: SurveyProps) {
   return (
     <div className="flex flex-row justify-center">
       <div className="max-w-lg my-8 mx-6">
@@ -24,41 +24,19 @@ export default function Survey({ surveyState, onAnswer, onSubmit }: SurveyProps)
         </p>
         <div className="mb-6">
           <div className="grid grid-cols-5 gap-4 items-center text-sm mb-6">
-            {OPTIONS_1.map((option, index) => (
+            {OPTIONS.map((option, index) => (
               <span key={index} className="w-full text-center">{option.label}</span>
             ))}
           </div>
-          {surveyState.part1.map((result, index) => (
+          {results.map((result, index) => (
             <div key={index} className="mb-6">
               <p className="mb-2 text-sm text-justify">
                 {result.question}
               </p>
               <SelectInput
-                options={OPTIONS_1}
+                options={OPTIONS}
                 selected={result.answer}
-                onSelect={(value) => onAnswer(1, index, value)}
-              />
-            </div>
-          ))}
-        </div>
-        <p className="mb-6 text-justify">
-          In the next section, we’ll ask you a few more questions about the cookie banner you just saw. Don’t worry, it’s super quick!
-        </p>
-        <div className="mb-6">
-          <div className="grid grid-cols-5 gap-4 items-center text-sm mb-6">
-            {OPTIONS_2.map((option, index) => (
-              <span key={index} className="w-full text-center">{option.label}</span>
-            ))}
-          </div>
-          {surveyState.part2.map((result, index) => (
-            <div key={index} className="mb-6">
-              <p className="mb-2 text-sm text-justify">
-                {result.question}
-              </p>
-              <SelectInput
-                options={OPTIONS_2}
-                selected={result.answer}
-                onSelect={(value) => onAnswer(1, index, value)}
+                onSelect={(value) => onAnswer(index, value)}
               />
             </div>
           ))}

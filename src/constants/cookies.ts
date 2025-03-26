@@ -16,18 +16,18 @@ export const COOKIE_LEVELS: CookieLevel[] = [
     title: "Functional",
     required: false,
     description:
-      "Enable features like remembering logins, keyboard layout, language and the country.",
+      "Enable features like remembering logins, language, country, and feedback collection.",
   },
   {
     title: "Performance",
     required: false,
     description:
-      "Help analyze visitor interactions, including traffic, visit duration and engagement.",
+      "Help analyze visitor interactions, including traffic, bounce rates, and engagement.",
   },
   {
     title: "Advertisement",
     required: false,
     description:
-      "Personalize ads based on your visits and browser search history.",
+      "Personalize ads based on your visits and measure ad performance.",
   },
 ];
