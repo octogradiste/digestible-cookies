@@ -1,3 +1,5 @@
+"use client";
+
 import { COOKIE_SUBTITLE, COOKIE_TITLE, COOKIE_LEVELS } from "@/src/constants/cookies";
 import AcceptRejectActionButton from "../buttons/accept-reject-action-button";
 import Dialog, { DialogTitle, DialogContent, DialogActions } from "../dialog";
@@ -10,7 +12,6 @@ export default function ClassicCookieBanner({ onDone, onInteract, animate }: Coo
   const [customize, setCustomize] = useState(false);
   const onCustomizeCallback = onCustomize(onInteract);
 
-  // Sets the state to true and calls the onCustomize function
   const onAction = () => {
     setCustomize(true);
     onCustomizeCallback();

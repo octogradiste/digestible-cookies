@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { COOKIE_SUBTITLE, COOKIE_TITLE, COOKIE_LEVELS } from "@/src/constants/cookies";
 import AcceptRejectActionButton from "../buttons/accept-reject-action-button";

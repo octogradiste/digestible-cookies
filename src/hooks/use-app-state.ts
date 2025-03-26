@@ -14,6 +14,10 @@ export const useAppState = () => {
     setState(AppState.Survey);
   };
 
+  const setDoneState = () => {
+    setState(AppState.Done);
+  };
+
   useEffect(() => {
     if (hasResults) {
       setState(AppState.Done);
@@ -30,5 +34,5 @@ export const useAppState = () => {
     }
   }, [user, state]);
 
-  return { state, setSurveyState };
+  return { state, setSurveyState, setDoneState };
 };
