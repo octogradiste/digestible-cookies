@@ -11,17 +11,23 @@ import { useCookieState } from "@/src/hooks/use-cookie-state";
 import useSurveyState from "@/src/hooks/use-survey-state";
 import { save } from "@/src/lib/firestore";
 import { AppState } from "@/src/models/app/app-state";
-import { useCallback, useMemo } from "react";
+import { useCallback, useMemo, useState } from "react";
 
 export default function Home() {
   const { state, setSurveyState, setDoneState } = useAppState();
   const { cookieState, onCookieInteraction } = useCookieState();
   const { surveyState, onSurveyAnswer } = useSurveyState();
+  const [error, setError] = useState<string | undefined>();
 
   const onSurveySubmit = useCallback(() => {
-    setDoneState();
-    save(cookieState, surveyState);
-  }, [cookieState, surveyState, setDoneState]);
+    if (surveyState.some((result) => result.answer === 0)) {
+      setError("Please answer all questions before submitting.");
+    } else {
+      setDoneState();
+      save(cookieState, surveyState);
+    }
+
+  }, [cookieState, surveyState, setDoneState, setError]);
 
   // The screen that is currently shown to the user.
   const screen = useMemo(() => {
@@ -31,6 +37,7 @@ export default function Home() {
       case AppState.Survey:
         return <Survey
           results={surveyState}
+          error={error}
           onAnswer={onSurveyAnswer}
           onSubmit={onSurveySubmit}
         />;

@@ -7,11 +7,12 @@ import SurveyResult from "@/src/models/survey/survey-result";
 
 interface SurveyProps {
   results: SurveyResult[];
+  error?: string;
   onAnswer: (index: number, value: number) => void;
   onSubmit: () => void;
 }
 
-export default function Survey({ results, onAnswer, onSubmit }: SurveyProps) {
+export default function Survey({ results, error, onAnswer, onSubmit }: SurveyProps) {
   return (
     <div className="flex flex-row justify-center">
       <div className="max-w-lg my-8 mx-6">
@@ -66,6 +67,11 @@ export default function Survey({ results, onAnswer, onSubmit }: SurveyProps) {
           </div>
         </div>
         <p className="mb-6 text-justify">That’s it! Just hit the button below to submit your responses. Thanks again for helping us make cookie banners less annoying! 🍪✨</p>
+        {error &&
+          <div className="mb-6 p-3 border border-red-500 bg-red-100 text-red-700 rounded-md">
+            {error}
+          </div>
+        }
         <div className="flex justify-center">
           <FilledButton title="Submit" onClick={onSubmit} />
         </div>
