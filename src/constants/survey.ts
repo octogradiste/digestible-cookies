@@ -10,6 +10,7 @@ export const QUESTIONS = [
   "I found the cookie banner very cumbersome to use.",
   "I felt very confident using the cookie banner.",
   "I needed to learn a lot of things before I could get going with this cookie banner.",
+  "I read the cookie banner carefully.",
   "Agreeing to performance cookies allows my processor usage to be collected.",
   "Agreeing to advertisement cookies may influence future ads I see.",
   "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
