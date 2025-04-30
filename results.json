@@ -1,0 +1,2654 @@
+{
+  "3CYqTNzSC9Pcmndm9o5CL0h1EVF3": {
+    "banner": 2,
+    "start": {
+      "_seconds": 1744631785,
+      "_nanoseconds": 423000000
+    },
+    "widht": 1710,
+    "height": 1022,
+    "agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1744631790,
+          "_nanoseconds": 842000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 5
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 5
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 1
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 4
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 4
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 4
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 3
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 2
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 4
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 2
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 2
+      }
+    ],
+    "end": {
+      "_seconds": 1744631951,
+      "_nanoseconds": 234000000
+    }
+  },
+  "48y7TEqINiP5q6BzkUrfcr74yzi1": {
+    "banner": 2,
+    "start": {
+      "_seconds": 1744530039,
+      "_nanoseconds": 346000000
+    },
+    "widht": 384,
+    "height": 723,
+    "agent": "Mozilla/5.0 (Linux; Android 13; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.38 Mobile Safari/537.36",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1744530053,
+          "_nanoseconds": 637000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 3
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 2
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 4
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 1
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 5
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 4
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 1
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 5
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 2
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 4
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 4
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 4
+      }
+    ],
+    "end": {
+      "_seconds": 1744530112,
+      "_nanoseconds": 878000000
+    }
+  },
+  "6rfiwdcsfFYGUCPJUMwAT1Ov8I62": {
+    "banner": 1,
+    "start": {
+      "_seconds": 1743674210,
+      "_nanoseconds": 809000000
+    },
+    "widht": 360,
+    "height": 642,
+    "agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1743674218,
+          "_nanoseconds": 446000000
+        },
+        "type": "click",
+        "component": "button-save"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 3
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 5
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 1
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 4
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 4
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 1
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 4
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 3
+      }
+    ],
+    "end": {
+      "_seconds": 1743674335,
+      "_nanoseconds": 287000000
+    }
+  },
+  "7KqH5Y4hDYZht5Cot4fV2DmZoHy1": {
+    "banner": 0,
+    "start": {
+      "_seconds": 1744534422,
+      "_nanoseconds": 777000000
+    },
+    "widht": 423,
+    "height": 828,
+    "agent": "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.37 Mobile Safari/537.36",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1744534426,
+          "_nanoseconds": 848000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 5
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 2
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 4
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 2
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 4
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 4
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 2
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 5
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 2
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 4
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 3
+      }
+    ],
+    "end": {
+      "_seconds": 1744534683,
+      "_nanoseconds": 16000000
+    }
+  },
+  "BKvgsQZHtvRBDVFhYLAsjF1fYNK2": {
+    "banner": 0,
+    "start": {
+      "_seconds": 1743677466,
+      "_nanoseconds": 411000000
+    },
+    "widht": 1440,
+    "height": 812,
+    "agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1743677478,
+          "_nanoseconds": 617000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 5
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 4
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 1
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 5
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 5
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 3
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 5
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 2
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 3
+      }
+    ],
+    "end": {
+      "_seconds": 1743677549,
+      "_nanoseconds": 832000000
+    }
+  },
+  "CNlGcH2tlZNvZzcMmcUUAmpxCGk1": {
+    "banner": 0,
+    "start": {
+      "_seconds": 1746024775,
+      "_nanoseconds": 588000000
+    },
+    "widht": 390,
+    "height": 663,
+    "agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Mobile/15E148 Safari/604.1",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1746024777,
+          "_nanoseconds": 264000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 5
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 2
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 4
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 3
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 4
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 4
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 2
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 3
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 2
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 2
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 2
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 1
+      }
+    ],
+    "end": {
+      "_seconds": 1746024936,
+      "_nanoseconds": 814000000
+    }
+  },
+  "DegwjVMCuhTX3JWqmsehsReM6pw1": {
+    "banner": 0,
+    "start": {
+      "_seconds": 1744739170,
+      "_nanoseconds": 32000000
+    },
+    "widht": 1410,
+    "height": 882,
+    "agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1744739172,
+          "_nanoseconds": 454000000
+        },
+        "type": "click",
+        "component": "button-customize"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1744739174,
+          "_nanoseconds": 926000000
+        },
+        "type": "click",
+        "component": "button-save"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 3
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 5
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 3
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 3
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 4
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 4
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 2
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 4
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 2
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 4
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 2
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 3
+      }
+    ],
+    "end": {
+      "_seconds": 1744739310,
+      "_nanoseconds": 578000000
+    }
+  },
+  "JFGVCt3qVHgbC3ZVhPIysy6fCxD3": {
+    "banner": 1,
+    "start": {
+      "_seconds": 1744626497,
+      "_nanoseconds": 508000000
+    },
+    "widht": 949,
+    "height": 912,
+    "agent": "Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1744626833,
+          "_nanoseconds": 575000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 3
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 5
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 2
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 3
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 3
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 2
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 3
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 4
+      }
+    ],
+    "end": {
+      "_seconds": 1744626916,
+      "_nanoseconds": 88000000
+    }
+  },
+  "LSVcpll7saaQI08NDI2YhN85l2f1": {
+    "banner": 1,
+    "start": {
+      "_seconds": 1744609013,
+      "_nanoseconds": 495000000
+    },
+    "widht": 393,
+    "height": 649,
+    "agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.2 Mobile/22D82 Safari/604.1",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1744609018,
+          "_nanoseconds": 432000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 5
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 5
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 1
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 5
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 5
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 3
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 5
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 2
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 3
+      }
+    ],
+    "end": {
+      "_seconds": 1744609123,
+      "_nanoseconds": 183000000
+    }
+  },
+  "NpE8D4PnbNcuEHwec7YrCZRCTIF2": {
+    "banner": 2,
+    "start": {
+      "_seconds": 1743689243,
+      "_nanoseconds": 583000000
+    },
+    "widht": 1272,
+    "height": 602,
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1743689248,
+          "_nanoseconds": 92000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 4
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 5
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 1
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 5
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 4
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 1
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 4
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 2
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 4
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 2
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 2
+      }
+    ],
+    "end": {
+      "_seconds": 1743689388,
+      "_nanoseconds": 251000000
+    }
+  },
+  "OREmuZIjlfXB6Ha6mRkLvLSc1gg2": {
+    "banner": 1,
+    "start": {
+      "_seconds": 1744212442,
+      "_nanoseconds": 754000000
+    },
+    "widht": 1304,
+    "height": 738,
+    "agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1744212447,
+          "_nanoseconds": 296000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 5
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 5
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 1
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 5
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 5
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 1
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 5
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 2
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 5
+      }
+    ],
+    "end": {
+      "_seconds": 1744212483,
+      "_nanoseconds": 799000000
+    }
+  },
+  "Uyga9FZn2sPyNc9yDzLzSwFLREC3": {
+    "banner": 2,
+    "start": {
+      "_seconds": 1743620195,
+      "_nanoseconds": 239000000
+    },
+    "widht": 372,
+    "height": 737,
+    "agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1743620197,
+          "_nanoseconds": 35000000
+        },
+        "type": "slide",
+        "component": "slider-functional"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743620202,
+          "_nanoseconds": 424000000
+        },
+        "type": "slide",
+        "component": "slider-performance"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743620203,
+          "_nanoseconds": 915000000
+        },
+        "type": "slide",
+        "component": "slider-advertisement"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743620205,
+          "_nanoseconds": 638000000
+        },
+        "type": "slide",
+        "component": "slider-performance"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743620208,
+          "_nanoseconds": 924000000
+        },
+        "type": "slide",
+        "component": "slider-functional"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743620216,
+          "_nanoseconds": 13000000
+        },
+        "type": "slide",
+        "component": "slider-necessary"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743620220,
+          "_nanoseconds": 908000000
+        },
+        "type": "slide",
+        "component": "slider-functional"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743620221,
+          "_nanoseconds": 534000000
+        },
+        "type": "slide",
+        "component": "slider-necessary"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743620226,
+          "_nanoseconds": 350000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 1
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 2
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 4
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 2
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 4
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 5
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 3
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 1
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 5
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 2
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 4
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 5
+      }
+    ],
+    "end": {
+      "_seconds": 1743620378,
+      "_nanoseconds": 643000000
+    }
+  },
+  "WHmEl1sC81ghIS7nMIqIf5FcF942": {
+    "banner": 2,
+    "start": {
+      "_seconds": 1744448724,
+      "_nanoseconds": 946000000
+    },
+    "widht": 375,
+    "height": 627,
+    "agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1744448730,
+          "_nanoseconds": 786000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 5
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 3
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 5
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 1
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 5
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 4
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 3
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 1
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 3
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 3
+      }
+    ],
+    "end": {
+      "_seconds": 1744448827,
+      "_nanoseconds": 887000000
+    }
+  },
+  "YbHMdSYkOkOHBGH3tSc9cAEz4ku2": {
+    "banner": 2,
+    "start": {
+      "_seconds": 1743685050,
+      "_nanoseconds": 103000000
+    },
+    "widht": 390,
+    "height": 664,
+    "agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Mobile/15E148 Safari/604.1",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1743685059,
+          "_nanoseconds": 223000000
+        },
+        "type": "slide",
+        "component": "slider-functional"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743685059,
+          "_nanoseconds": 657000000
+        },
+        "type": "slide",
+        "component": "slider-performance"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743685060,
+          "_nanoseconds": 124000000
+        },
+        "type": "slide",
+        "component": "slider-advertisement"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743685061,
+          "_nanoseconds": 60000000
+        },
+        "type": "slide",
+        "component": "slider-performance"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743685061,
+          "_nanoseconds": 261000000
+        },
+        "type": "slide",
+        "component": "slider-functional"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743685061,
+          "_nanoseconds": 612000000
+        },
+        "type": "slide",
+        "component": "slider-necessary"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743685063,
+          "_nanoseconds": 358000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 2
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 5
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 2
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 3
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 4
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 4
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 2
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 4
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 4
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 4
+      }
+    ],
+    "end": {
+      "_seconds": 1743685156,
+      "_nanoseconds": 284000000
+    }
+  },
+  "ZIZBoloj93VYjszP4qgMbQB7JbE3": {
+    "banner": 2,
+    "start": {
+      "_seconds": 1744455892,
+      "_nanoseconds": 494000000
+    },
+    "widht": 1440,
+    "height": 820,
+    "agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1744455901,
+          "_nanoseconds": 595000000
+        },
+        "type": "slide",
+        "component": "slider-functional"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1744455903,
+          "_nanoseconds": 710000000
+        },
+        "type": "slide",
+        "component": "slider-performance"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1744455905,
+          "_nanoseconds": 810000000
+        },
+        "type": "slide",
+        "component": "slider-functional"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1744455905,
+          "_nanoseconds": 977000000
+        },
+        "type": "slide",
+        "component": "slider-necessary"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1744455907,
+          "_nanoseconds": 562000000
+        },
+        "type": "click",
+        "component": "button-save"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 1
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 2
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 4
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 1
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 5
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 3
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 2
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 2
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 3
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 4
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 4
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 3
+      }
+    ],
+    "end": {
+      "_seconds": 1744456014,
+      "_nanoseconds": 813000000
+    }
+  },
+  "aO5bBqUqJQMMSfvqJdNt3EEXzCa2": {
+    "banner": 0,
+    "start": {
+      "_seconds": 1744899465,
+      "_nanoseconds": 533000000
+    },
+    "widht": 1290,
+    "height": 738,
+    "agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1744899469,
+          "_nanoseconds": 546000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 5
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 5
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 3
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 5
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 5
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 3
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 1
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 1
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 5
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 3
+      }
+    ],
+    "end": {
+      "_seconds": 1744899627,
+      "_nanoseconds": 748000000
+    }
+  },
+  "bUgSHjKQLqO5LRHxVgqKIKsJvKz2": {
+    "banner": 0,
+    "start": {
+      "_seconds": 1743605969,
+      "_nanoseconds": 913000000
+    },
+    "widht": 1512,
+    "height": 823,
+    "agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1743605978,
+          "_nanoseconds": 766000000
+        },
+        "type": "click",
+        "component": "button-accept"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 5
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 4
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 1
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 5
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 5
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 4
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 4
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 4
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 1
+      }
+    ],
+    "end": {
+      "_seconds": 1743606080,
+      "_nanoseconds": 585000000
+    }
+  },
+  "e2JCsudoRNVq8uEMqY5VkYwltK02": {
+    "banner": 1,
+    "start": {
+      "_seconds": 1744449887,
+      "_nanoseconds": 452000000
+    },
+    "widht": 392,
+    "height": 732,
+    "agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.135 Mobile Safari/537.36",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1744449905,
+          "_nanoseconds": 50000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 5
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 5
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 1
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 5
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 5
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 1
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 5
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 2
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 1
+      }
+    ],
+    "end": {
+      "_seconds": 1744449975,
+      "_nanoseconds": 896000000
+    }
+  },
+  "elK3Khk2K6aU3qBlClq2Wt6ZTan1": {
+    "banner": 2,
+    "start": {
+      "_seconds": 1743685241,
+      "_nanoseconds": 987000000
+    },
+    "widht": 408,
+    "height": 783,
+    "agent": "Mozilla/5.0 (Android 14; Mobile; rv:136.0) Gecko/136.0 Firefox/136.0",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1743685252,
+          "_nanoseconds": 731000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 5
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 5
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 3
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 2
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 5
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 4
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 1
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 5
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 5
+      }
+    ],
+    "end": {
+      "_seconds": 1743685472,
+      "_nanoseconds": 374000000
+    }
+  },
+  "fqJYv2NtSXMAmt0tRbfHvOTWawv2": {
+    "banner": 2,
+    "start": {
+      "_seconds": 1743621963,
+      "_nanoseconds": 447000000
+    },
+    "widht": 1272,
+    "height": 674,
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1743622106,
+          "_nanoseconds": 775000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 1
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 5
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 5
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 3
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 2
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 2
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 2
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 5
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 2
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 3
+      }
+    ],
+    "end": {
+      "_seconds": 1743622466,
+      "_nanoseconds": 664000000
+    }
+  },
+  "ivZ6iBxurgN5SkLhCst0cJ1ypXW2": {
+    "banner": 2,
+    "start": {
+      "_seconds": 1743617257,
+      "_nanoseconds": 515000000
+    },
+    "widht": 1440,
+    "height": 754,
+    "agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1743617269,
+          "_nanoseconds": 300000000
+        },
+        "type": "click",
+        "component": "button-save"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 2
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 4
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 1
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 5
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 5
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 1
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 4
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 4
+      }
+    ],
+    "end": {
+      "_seconds": 1743617363,
+      "_nanoseconds": 502000000
+    }
+  },
+  "pSpYpoIR4QV5mpPSpAorZOdDOgp1": {
+    "banner": 0,
+    "start": {
+      "_seconds": 1743679426,
+      "_nanoseconds": 725000000
+    },
+    "widht": 390,
+    "height": 663,
+    "agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1743679430,
+          "_nanoseconds": 377000000
+        },
+        "type": "click",
+        "component": "button-customize"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743679432,
+          "_nanoseconds": 838000000
+        },
+        "type": "click",
+        "component": "button-save"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 5
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 2
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 3
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 1
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 5
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 4
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 4
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 4
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 4
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 3
+      }
+    ],
+    "end": {
+      "_seconds": 1743679511,
+      "_nanoseconds": 559000000
+    }
+  },
+  "qQsnlzyB8ZQstKkJNuW2mYpBR9v2": {
+    "banner": 2,
+    "start": {
+      "_seconds": 1743610462,
+      "_nanoseconds": 451000000
+    },
+    "widht": 485,
+    "height": 920,
+    "agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1743610479,
+          "_nanoseconds": 840000000
+        },
+        "type": "slide",
+        "component": "slider-functional"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743610480,
+          "_nanoseconds": 717000000
+        },
+        "type": "slide",
+        "component": "slider-performance"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743610482,
+          "_nanoseconds": 181000000
+        },
+        "type": "slide",
+        "component": "slider-advertisement"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743610483,
+          "_nanoseconds": 204000000
+        },
+        "type": "slide",
+        "component": "slider-performance"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743610483,
+          "_nanoseconds": 387000000
+        },
+        "type": "slide",
+        "component": "slider-functional"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743610483,
+          "_nanoseconds": 571000000
+        },
+        "type": "slide",
+        "component": "slider-necessary"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743610484,
+          "_nanoseconds": 845000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 1
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 5
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 3
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 1
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 5
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 5
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 3
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 3
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 2
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 4
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 1
+      }
+    ],
+    "end": {
+      "_seconds": 1743610743,
+      "_nanoseconds": 428000000
+    }
+  },
+  "t4bxToqx2FNdmFRhXHgysbjvhLC2": {
+    "banner": 1,
+    "start": {
+      "_seconds": 1744489427,
+      "_nanoseconds": 717000000
+    },
+    "widht": 1512,
+    "height": 872,
+    "agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1744489437,
+          "_nanoseconds": 726000000
+        },
+        "type": "click",
+        "component": "button-save"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 5
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 4
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 3
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 2
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 3
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 3
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 4
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 2
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 5
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 2
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 2
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 1
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 3
+      }
+    ],
+    "end": {
+      "_seconds": 1744489536,
+      "_nanoseconds": 467000000
+    }
+  },
+  "tJPeaxueulaXWo3AfhASF3fDq3G3": {
+    "banner": 0,
+    "start": {
+      "_seconds": 1743675554,
+      "_nanoseconds": 293000000
+    },
+    "widht": 360,
+    "height": 708,
+    "agent": "Mozilla/5.0 (Android 15; Mobile; rv:136.0) Gecko/136.0 Firefox/136.0",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1743675570,
+          "_nanoseconds": 278000000
+        },
+        "type": "click",
+        "component": "button-reject"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 5
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 1
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 5
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 3
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 2
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 4
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 4
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 2
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 5
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 5
+      }
+    ],
+    "end": {
+      "_seconds": 1743675659,
+      "_nanoseconds": 485000000
+    }
+  },
+  "xLZvtRa4lZQZbK044Byj0Biwh6t2": {
+    "banner": 2,
+    "start": {
+      "_seconds": 1743606327,
+      "_nanoseconds": 924000000
+    },
+    "widht": 1536,
+    "height": 730,
+    "agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1743606339,
+          "_nanoseconds": 764000000
+        },
+        "type": "slide",
+        "component": "slider-functional"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743606340,
+          "_nanoseconds": 430000000
+        },
+        "type": "slide",
+        "component": "slider-necessary"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743606343,
+          "_nanoseconds": 180000000
+        },
+        "type": "slide",
+        "component": "slider-functional"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743606343,
+          "_nanoseconds": 981000000
+        },
+        "type": "slide",
+        "component": "slider-performance"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743606344,
+          "_nanoseconds": 580000000
+        },
+        "type": "slide",
+        "component": "slider-advertisement"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743606345,
+          "_nanoseconds": 447000000
+        },
+        "type": "slide",
+        "component": "slider-performance"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743606346,
+          "_nanoseconds": 47000000
+        },
+        "type": "slide",
+        "component": "slider-functional"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743606346,
+          "_nanoseconds": 447000000
+        },
+        "type": "slide",
+        "component": "slider-necessary"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743606359,
+          "_nanoseconds": 864000000
+        },
+        "type": "slide",
+        "component": "slider-functional"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743606363,
+          "_nanoseconds": 149000000
+        },
+        "type": "slide",
+        "component": "slider-performance"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743606365,
+          "_nanoseconds": 132000000
+        },
+        "type": "slide",
+        "component": "slider-advertisement"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743606366,
+          "_nanoseconds": 382000000
+        },
+        "type": "slide",
+        "component": "slider-performance"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743606366,
+          "_nanoseconds": 582000000
+        },
+        "type": "slide",
+        "component": "slider-functional"
+      },
+      {
+        "timestamp": {
+          "_seconds": 1743606368,
+          "_nanoseconds": 462000000
+        },
+        "type": "click",
+        "component": "button-save"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 4
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 2
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 4
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 2
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 5
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 3
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 5
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 2
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 3
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 4
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 5
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 3
+      }
+    ],
+    "end": {
+      "_seconds": 1743606573,
+      "_nanoseconds": 281000000
+    }
+  }
+}
