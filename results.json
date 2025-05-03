@@ -359,6 +359,96 @@
       "_nanoseconds": 16000000
     }
   },
+  "7QNgBvNAr6aJHzCkxtvGHzV7t3f1": {
+    "banner": 2,
+    "start": {
+      "_seconds": 1746113833,
+      "_nanoseconds": 920000000
+    },
+    "widht": 1229,
+    "height": 624,
+    "agent": "Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0",
+    "interactions": [
+      {
+        "timestamp": {
+          "_seconds": 1746113845,
+          "_nanoseconds": 21000000
+        },
+        "type": "click",
+        "component": "button-save"
+      }
+    ],
+    "survey": [
+      {
+        "question": "I am familiar with cookie banner shown on the previous page.",
+        "answer": 5
+      },
+      {
+        "question": "I generally accept all cookies on websites.",
+        "answer": 2
+      },
+      {
+        "question": "I generally reject all cookies on websites.",
+        "answer": 4
+      },
+      {
+        "question": "I think that I would like to use this cookie banner frequently.",
+        "answer": 3
+      },
+      {
+        "question": "I found the cookie banner unnecessarily complex.",
+        "answer": 2
+      },
+      {
+        "question": "I thought the cookie banner was easy to use.",
+        "answer": 4
+      },
+      {
+        "question": "I found the various functions in this cookie banner were well integrated.",
+        "answer": 3
+      },
+      {
+        "question": "I would imagine that most people would learn to use this cookie banner very quickly.",
+        "answer": 4
+      },
+      {
+        "question": "I found the cookie banner very cumbersome to use.",
+        "answer": 2
+      },
+      {
+        "question": "I felt very confident using the cookie banner.",
+        "answer": 4
+      },
+      {
+        "question": "I needed to learn a lot of things before I could get going with this cookie banner.",
+        "answer": 1
+      },
+      {
+        "question": "I read the cookie banner carefully.",
+        "answer": 2
+      },
+      {
+        "question": "Agreeing to performance cookies allows my processor usage to be collected.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to advertisement cookies may influence future ads I see.",
+        "answer": 4
+      },
+      {
+        "question": "Agreeing to advertisement cookies allows the website provider to store my browser search history.",
+        "answer": 3
+      },
+      {
+        "question": "Agreeing to functional cookies allows my keyboard layout to be collected.",
+        "answer": 3
+      }
+    ],
+    "end": {
+      "_seconds": 1746113964,
+      "_nanoseconds": 794000000
+    }
+  },
   "BKvgsQZHtvRBDVFhYLAsjF1fYNK2": {
     "banner": 0,
     "start": {
